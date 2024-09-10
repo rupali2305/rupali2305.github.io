@@ -2,6 +2,11 @@
   /* Style for the navigation bar */
   /* Style for the navigation bar */
   /* Basic CSS reset */
+@media (max-width: 768px) {
+  nav {
+    height: 50px; /* This might make the navbar too small */
+  }
+}
 * {
     margin: 0;
     padding: 0;
